@@ -25,7 +25,7 @@ const Main = () => {
 
   return (
     <div className="container">
-      <h1>Guess Age, Gender, and Country</h1>
+      <h1>Guess : Age, Gender, and Country</h1>
       <NameForm onSubmit={handleSubmit} loading={loading} />
       {error && <p className="error">{error}</p>}
       {nameInfo && <NameInfo {...nameInfo} />}
